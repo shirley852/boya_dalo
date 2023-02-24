@@ -23,7 +23,7 @@ Select_resource_host()
 		if [ "$Host_Option" = "2" ]; then
 			#相同
 			echo "您选择的安装源地址为：2、GitHub"
-			Download_Host="";
+			Download_Host="https://raw.githubusercontent.com/shirley852/boya-dalo/master/Source";
 		else
 			#不相同
 			echo "检测到您未选择安装源或选择错误，系统默认为您选择安装源地址为：1、博雅腾讯云对象存储（大陆）"
